@@ -102,13 +102,16 @@
 
 ## 2. Eternal Mortis — 매 런 다른 던전을 만드는 규칙
 
-Unreal Engine 5.6 · 3D 소울라이크 + 로그라이트 · 국민대학교 졸업작품(캡스톤) · 4인 팀 · 2026.02 ~ 07 · itch.io 배포. 저는 **레벨 디자이너**로 절차 생성 맵, 층 구조와 컨셉 전환, 방 단위 전투 · 잠금 기믹, 몬스터 스폰 파이프라인, 실외 환경 자동 배치, 조명, 런 상태 C++ 서브시스템, 멀티 엔딩 분기를 맡았습니다.
+<p align="center"><img src="img/ue-cover.jpg" width="100%" alt="Eternal Mortis"></p>
+
+Unreal Engine 5.6 · 3D 소울라이크 + 로그라이트 · 국민대학교 졸업작품(캡스톤) · 4인 팀 · 2026.02 ~ 07 · [itch.io 배포](https://ssutte.itch.io/eternal-mortis). 영원한 저주에 묶여 죽어도 탈출을 멈출 수 없는 기사의 이야기. 무기 17종 · 무기 스타일 5 · 룬 세트 14종을 조합해 매 런 다른 빌드를 만들고, 던전도 매 런 다르게 생성됩니다. 저는 **레벨 디자이너**로 절차 생성 맵, 층 구조와 컨셉 전환, 방 단위 전투 · 잠금 기믹, 몬스터 스폰 파이프라인, 실외 환경 자동 배치, 조명, 런 상태 C++ 서브시스템, 멀티 엔딩 분기를 맡았습니다.
 
 <p align="center">
   <img src="img/ue-mapgen.jpg" width="100%" alt="생성된 던전을 위에서 본 모습 — 방 프리팹이 연결점으로 이어져 있다">
 </p>
 <p align="center">
-  <img src="img/ue-5.jpg" width="49%" alt="1~2층 지하감옥"> <img src="img/ue-editor2.jpg" width="49%" alt="3~4층 성 내부 — 횃불 조명">
+  <img src="img/ue-combat.jpg" width="49%" alt="1~2층 지하감옥 — 전투"> <img src="img/ue-editor2.jpg" width="49%" alt="3~4층 성 내부 — 횃불 조명">
+  <img src="img/ue-village.jpg" width="49%" alt="5~6층 식인마을 — 실외 · 석상방"> <img src="img/ue-5.jpg" width="49%" alt="지하감옥 — 횃불이 켜진 홀">
 </p>
 
 ### 2.1 생성 규칙 — 그래프 탐색 없이 프리팹 조립 + 충돌 검사
